@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('Fonts/CaviarDreams-webfont.eot');
+    src: url('Fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/CaviarDreams-webfont.woff2') format('woff2'),
+         url('Fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('Fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('Fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('Fonts/Caviar_Dreams_Bold-webfont.eot');
+    src: url('Fonts/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Caviar_Dreams_Bold-webfont.woff2') format('woff2'),
+         url('Fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('Fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('Fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: url(images/backgroundimage3.jpg) no-repeat center fixed;
+    text-align: center;
+	background-size: cover;
+	font-family: 'caviar_dreamsbold', arial;
+}
+
+.jumbotron
+{
+	flex-direction: column;
+	background-color: rgba(97, 117, 125, 0.6);
+	margin-top: 10%;
+	color: white;
+}
+
+/*.presentation h1
+{
+text-align: center;
+margin-top: 150px;
+}
+
+.presentation p
+{
+text-align: center;
+margin-top: 30px;
+}*/
+
+.my-4
+{
+background-color: white;
+}
+
+
+
+
+
+/*background-color: #f8f9fa!important;*/
